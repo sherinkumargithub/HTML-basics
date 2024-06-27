@@ -1,0 +1,22 @@
+h1 {
+  background-color: rgb(145, 182, 216);
+}
+
+div {
+  background-color: rgb(50, 61, 33);
+}
+
+p {
+  background-color: rgb(160, 160, 127);
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid thistle;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}

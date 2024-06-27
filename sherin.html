@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>my first page</title>
+    <link rel="icon" href="bat.jpg" type="image/x=icon" />
+    <link rel="stylesheet" href="css main.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>hello world!</h1>
+      <hr />
+      <nav>
+        <ul>
+          <li><a href="#ch3">chapter 3</a></li>
+          <li><a href="#ch5">chapter 5</a></li>
+          <li><a href="#for info">contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>
+        I will dam sure i must learn html as <br />much as faster and great
+        &nbsp;&nbsp;&nbsp;POWER
+      </p>
+      <br />
+      <hr />
+      <h2>I am in chapter 3</h2>
+      <!--i have to learn lot of things-->
+      <address>Tuticorin</address>
+      <p>I will <strong>win</strong> as soon as posible</p>
+      <hr />
+      &lt;&lt;&lt;&lt;MASTER &gt;&gt;&gt;&gt;
+      <br />
+      <hr />
+      <br />
+      <figure>
+        <img
+          src="extensions/image/joker.jpg"
+          alt="batman"
+          width="400"
+          height="250"
+          loading="lazy"
+        />
+        <figcaption><strong>The Joker</strong></figcaption>
+      </figure>
+      <section id="ch3">
+        <h3>rule should follow:</h3>
+        <dl>
+          <dt>knowledge</dt>
+          <dd>
+            <a href="https://www.youtube.com/channel/UCYCvUCIFJt0nQ8ssfkK9n6w">
+              knowledge is power</a
+            >
+          </dd>
+          <dt>time</dt>
+          <dd>time is gold</dd>
+          <dt>practice</dt>
+          <dd>practice makes man perfect</dd>
+        </dl>
+        <hr />
+      </section>
+      <h4>About me !</h4>
+      <p><a href="about.html">I am SK</a></p>
+      <hr />
+      <section id="ch5">
+        <h5>I am in chapter 5</h5>
+        <!--i have to learn lot of things-->
+        <address>Tuticorin</address>
+        <p>I will <strong>win</strong> as soon as posible</p>
+        <hr />
+      </section>
+      <hr />
+      <br />
+      <table>
+        <thead>
+          <caption>
+            my shedule
+          </caption>
+          <tr>
+            <th>&nbsp;</th>
+            <th scope="col">TIME</th>
+            <th scope="col">ACTIVITY</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Morning</th>
+            <td>
+              <time datetime="5:00">5am</time>- <time datetime="8:00">8am</time>
+            </td>
+            <td>self development</td>
+          </tr>
+          <tr>
+            <th scope="row">Afternoon</th>
+            <td>
+              <time datetime="13:00">1pm</time>-
+              <time datetime="18:00">6pm</time>
+            </td>
+            <td>college</td>
+          </tr>
+          <tr>
+            <th scope="row">Evening</th>
+            <td>
+              <time datetime="18:00">6pm</time>-
+              <time datetime="20:00">8pm</time>
+            </td>
+            <td>gym</td>
+          </tr>
+          <tr>
+            <th scope="row">Night</th>
+            <td colspan="2">sleep</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">learn-eat-gym-sleep-repeat</td>
+          </tr>
+        </tfoot>
+      </table>
+      <hr />
+      <section id="for info">
+        <h2>contact me</h2>
+        <p>for more information.</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal details</legend>
+            <p>
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="your name"
+                autocomplete="on"
+                reqired
+              />
+            </p>
+            <p>
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="sure name"
+                autocomplete="on"
+                reqired
+              />
+            </p>
+            <p>
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="your pw"
+                reqired
+              />
+            </p>
+            <p>
+              <label for="phone">Phone No:</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="957689****"
+                required
+              />
+            </p>
+            <p>
+              <label for="decade">Fav decade:</label>
+              <input
+                type="number"
+                name="decade"
+                id="decade"
+                min="1930"
+                max="2020"
+                value="1960"
+                step="10"
+              />
+            </p>
+            <p>
+              <label for="content">Dream car for life:</label>
+              <select name="content" id="content" multiple size="4">
+                <optgroup label="sports cars">
+                  <option value="lambogini">Lambogini</option>
+                  <option value="bugatti" selected>Bugatti</option>
+                  <option value="ferarri">Ferarri</option>
+                </optgroup>
+                <optgroup label="luxury cars">
+                  <option value="rollsroyce">Rollsroyce</option>
+                  <option value="toyota">Toyota</option>
+                  <option value="mistabish">Mistabish</option>
+                </optgroup>
+                <optgroup label="higherend cars">
+                  <option value="benz">Benz</option>
+                  <option value="audi">Audi</option>
+                </optgroup>
+              </select>
+            </p>
+          </fieldset>
+          <!--(the above code is similar to this)  
+           <p>
+            <label for="content">fav cars:</label>
+            <input
+              type="text"
+              name="content"
+              id="content"
+              list="content-list"
+            />
+            <datalist id="content-list">
+              <option value="lambogini"></option>
+              <option value="bugatti"></option>
+              <option value="ferarri"></option>
+            </datalist>
+          </p> -->
+          <br /><br /><br /><br />
+          <fieldset>
+            <legend>Fav brands</legend>
+            <p>
+              <input type="radio" name="bikes" id="yamaha" value="yamaha" />
+              <label for="yamaha">Yamaha</label>
+            </p>
+            <p>
+              <input type="radio" name="bikes" id="honda" value="honda" />
+              <label for="honda">Honda</label>
+            </p>
+            <p>
+              <input type="radio" name="bikes" id="suziqui" value="suziqui" />
+              <label for="suziqui">Suziqui</label>
+            </p>
+          </fieldset>
+          <br /><br /><br /><br />
+          <fieldset>
+            <legend>Fav brands</legend>
+            <p>
+              <input type="checkbox" name="bikes" id="yamaha" value="yamaha" />
+              <label for="yamaha">Yamaha</label>
+            </p>
+            <p>
+              <input type="checkbox" name="bikes" id="honda" value="honda" />
+              <label for="honda">Honda</label>
+            </p>
+            <p>
+              <input
+                type="checkbox"
+                name="bikes"
+                id="suziqui"
+                value="suziqui"
+              />
+              <label for="suziqui">Suziqui</label>
+            </p>
+          </fieldset>
+          <br /><br /><br /><br />
+          <fieldset>
+            <legend>Send me the note</legend>
+
+            <label for="message">Your message</label>
+            <p>
+              <textarea
+                name="message"
+                id="message"
+                cols="20"
+                row="8"
+                placeholder="type your note"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Post
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+          href="#"
+          >&lt;&lt;Back to top&gt;&gt;</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
